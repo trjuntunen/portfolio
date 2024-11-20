@@ -11,10 +11,11 @@ type Recipe = {
   
   export default function RecipeCard({ recipe }: RecipeCardProps) {
     return (
-      <div className="border p-4 rounded shadow">
-        <h3 className="text-lg font-semibold">{recipe.title}</h3>
-        <p className="text-sm text-gray-700">{recipe.description}</p>
+      <div className="border rounded-lg p-4 shadow-md bg-white hover:shadow-lg transition-shadow">
+        <h3 className="text-lg font-semibold text-gray-800">{recipe.title}</h3>
+        <p className="text-gray-600 mt-2">{recipe.description}</p>
       </div>
     );
   }
+  
   
