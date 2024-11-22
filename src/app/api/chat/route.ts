@@ -6,7 +6,9 @@ import path from "path";
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
-
+console.log("MODELS");
+const models = await openai.models.list();
+console.log(models.data.map((model) => model.id));
 // Read resume context
 const resumePath = path.join(process.cwd(), "public/assets/resumeContext.txt");
 const resumeContext = fs.readFileSync(resumePath, "utf-8");
@@ -25,12 +27,18 @@ export async function POST(req: Request) {
     }
 
     const response = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo",
+      model: "gpt-4", // or "gpt-4-turbo"
       messages: [
-        { role: "system", content: `You are a helpful assistant answering questions about my professional experience.` },
+        {
+          role: "system",
+          content: `You are an assistant helping to answer questions about Theodore's professional experience, skills, and achievements. 
+                    Your audience consists of potential employers asking about Theodore. 
+                    Always refer to Theodore in the third person and answer professionally as if you are highlighting Theodore's qualifications to them.`,
+        },
         { role: "system", content: resumeContext },
         { role: "user", content: question },
       ],
+      max_tokens: 120, // Adjust as needed
     });
 
     const answer = response.choices[0]?.message?.content || "Sorry, I couldn't generate an answer.";
