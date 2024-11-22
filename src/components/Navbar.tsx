@@ -1,6 +1,3 @@
-// src/components/Navbar.tsx
-import Link from 'next/link';
-
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-800 text-white shadow-md z-50">

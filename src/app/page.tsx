@@ -3,6 +3,7 @@
 import Header from '@/components/Header';
 import WorkSection from '@/components/WorkSection';
 import SkillsSection from '@/components/SkillsSection';
+import ChatSection from '@/components/ChatSection'; // Import the new Chat Section
 import Footer from '@/components/Footer';
 
 export default function Page() {
@@ -16,6 +17,9 @@ export default function Page() {
 
       {/* Skills Section */}
       <SkillsSection />
+
+      {/* Chat Section */}
+      <ChatSection />
 
       {/* Footer */}
       <Footer />

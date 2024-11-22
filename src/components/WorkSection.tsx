@@ -1,9 +1,11 @@
-// src/components/WorkSection.tsx
 export default function WorkSection() {
     const projects = [
       { title: "Project A", description: "A brief description of Project A.", link: "#" },
       { title: "Project B", description: "A brief description of Project B.", link: "#" },
       { title: "Project C", description: "A brief description of Project C.", link: "#" },
+      { title: "Project D", description: "A brief description of Project D.", link: "#" },
+      { title: "Project E", description: "A brief description of Project E.", link: "#" },
+      { title: "Project F", description: "A brief description of Project F.", link: "#" },
     ];
   
     return (

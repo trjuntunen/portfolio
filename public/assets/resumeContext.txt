@@ -1,0 +1,136 @@
+SUMMARY
+I am an experienced software engineer specializing in the development of full-stack web
+applications, API's and large-scale software systems. I have a proven track record in
+leading end-to-end development projects, and am skilled in a diverse range of
+programming languages and technologies.
+Skills
+React, Javascript, Python,
+Java, SQL, Docker,
+Kubernetes, AWS, Azure
+EXPERIENCE
+Datalogz Inc. New York, NY— Software Engineer (Remote)
+Feb. 2023 - August 2024
+● Led the development of a Python-based CLI tool to automate the build and
+configuration of the company's flagship application. The tool is used by all
+Datalogz developers and customers to deploy the application and has led to
+significant reductions in development time, configuration overhead, and costs.
+● Developed a core feature for the company's application, using OpenAI, Python,
+and React to enable users to create, modify, and execute customized workflows -
+resolving identified issues within customers' data environments. This leads to
+significant cost savings for customers in business intelligence as unused assets
+are eliminated and developer hours are saved.
+● Designed and developed a full-stack React application with a Python backend to
+enhance the deployment CLI tool. This solution enables non-technical users to
+initialize and build app services, as well as provision cloud resources, with just a
+few clicks, significantly broadening usability and streamlining deployment
+workflows.
+● Developed Infrastructure as Code (IaC) templates using Azure Bicep, AWS
+CloudFormation and T erraform to automate the environment setup process for
+quick and efficient app deployment.
+Truebeck Construction, San Mateo, CA— Software Engineer
+May 2019 - June 2022
+● Designed and developed a comprehensive Vehicle Tracking Management System
+to efficiently manage all company vehicles including a vehicle servicing
+appointment system and notifications system for reporting monthly mileages all
+through an intuitive SMS-based interface. T ools used include Java, Twilio API,
+AWS EC2.
+● Played a key role in cost savings for clients by automating daily jobsite
+attendance and personnel tracking through the integration of virtual badges within
+a React-based full stack web application. Deployed at over 85 construction
+projects across the Bay Area with thousands of users every day.
+● Implemented continuous delivery pipeline for safely deploying changes to live
+service without interruption for end-users.
+EDUCATION
+University of San Francisco, San Francisco, CA— Bachelor of Science in
+Computer Science
+
+
+ExperienceExperience
+
+Datalogz logo
+Software Engineer
+Software Engineer
+Datalogz · Full-timeDatalogz · Full-time
+Feb 2023 - Aug 2024 · 1 yr 7 mosFeb 2023 to Aug 2024 · 1 yr 7 mos
+New York, New York, United States · RemoteNew York, New York, United States · Remote
+Python-based CLI Tool & React App:
+- End-to-end development and design of CLI and accompanying React application which automated build and configuration for company product.
+- Facilitated access and use through a user-friendly interface in a React application.
+- Used by all Datalogz developers and customers.
+- Resulted in reduced development time and configuration overhead.
+
+FastAPI Backend Services:
+- Developed efficient APIs using Python's FastAPI.
+- Ensured high-performance, scalable API endpoints for diverse application functionalities.
+- Facilitated secure and efficient data transactions for the React application and CLI tool.
+
+OpenAI Workflow Feature:
+- Developed core application feature.
+- Utilized OpenAI, Python, and React.
+- Enabled customized workflow creation and execution.
+- Similar to iOS "Shortcuts" app but for BI solutions.
+- Resolved data environment issues for customers.
+- Significant cost savings in BI operations.
+
+Azure IaC Solutions with Bicep:
+- Developed Infrastructure as Code (IaC) templates using Azure Bicep, AWS CloudFormation, Terraform to automate the environment setup process for quick and efficient app deployment.
+
+CI/CD Pipeline:
+- Establishment using Docker and Kubernetes.
+- Improved speed, reliability, and software delivery process.
+- Ensured efficient deployment of updates and features for both the CLI tool and React application as well as OpenAI Workflow Automation system I created.Python-based CLI Tool & React App: - End-to-end development and design of CLI and accompanying React application which automated build and configuration for company product. - Facilitated access and use through a user-friendly interface in a React application. - Used by all Datalogz developers and customers. - Resulted in reduced development time and configuration overhead. FastAPI Backend Services: - Developed efficient APIs using Python's FastAPI. - Ensured high-performance, scalable API endpoints for diverse application functionalities. - Facilitated secure and efficient data transactions for the React application and CLI tool. OpenAI Workflow Feature: - Developed core application feature. - Utilized OpenAI, Python, and React. - Enabled customized workflow creation and execution. - Similar to iOS "Shortcuts" app but for BI solutions. - Resolved data environment issues for customers. - Significant cost savings in BI operations. Azure IaC Solutions with Bicep: - Developed Infrastructure as Code (IaC) templates using Azure Bicep, AWS CloudFormation, Terraform to automate the environment setup process for quick and efficient app deployment. CI/CD Pipeline: - Establishment using Docker and Kubernetes. - Improved speed, reliability, and software delivery process. - Ensured efficient deployment of updates and features for both the CLI tool and React application as well as OpenAI Workflow Automation system I created.
+Python (Programming Language), React.js and +11 skills
+Truebeck Construction logo
+Software Engineer
+Software Engineer
+Truebeck ConstructionTruebeck Construction
+May 2019 - Jun 2022 · 3 yrs 2 mosMay 2019 to Jun 2022 · 3 yrs 2 mos
+San Mateo, California, United StatesSan Mateo, California, United States
+Vehicle Tracking System:
+ - Track monthly mileage of vehicle
+ - Driver assignment system
+ - Automated Service reminder/scheduling
+ - Used by 1,000s of employees
+ - Key system to company workflow
+ - AWS EC2, Twillio API, Java Jetty
+
+COVID Personnel Tracking Software:
+ - Daily health survey
+ - Each Personnel has unique badge to authenticate
+ - Results stored in database in Azure
+ - Used by 1,000s of employees
+ - Critical business system during pandemic
+Other
+- Enabled Safety team via Web API to access business critical data
+- Generated Tableau visualizations for analysis
+- Create non-programmer documentation for products
+- Regression testing before deploymentsVehicle Tracking System: - Track monthly mileage of vehicle - Driver assignment system - Automated Service reminder/scheduling - Used by 1,000s of employees - Key system to company workflow - AWS EC2, Twillio API, Java Jetty COVID Personnel Tracking Software: - Daily health survey - Each Personnel has unique badge to authenticate - Results stored in database in Azure - Used by 1,000s of employees - Critical business system during pandemic Other - Enabled Safety team via Web API to access business critical data - Generated Tableau visualizations for analysis - Create non-programmer documentation for products - Regression testing before deployments…see more
+Python (Programming Language), JavaScript and +8 skills
+Sentieo, an AlphaSense company logo
+Software Engineer Intern
+Software Engineer Intern
+Sentieo · InternshipSentieo · Internship
+May 2018 - Aug 2018 · 4 mosMay 2018 to Aug 2018 · 4 mos
+San Francisco, California, United StatesSan Francisco, California, United States
+Automated Visual Reporting System:
+- Developed an automated system for generating daily reports.
+- Provided actionable insights tailored for sales and marketing teams.
+- Enhanced data-driven decision-making processes.
+
+Stock Data APIs Development:
+- Designed and implemented APIs to access real-time and historical stock data.
+- Integrated stock data APIs with the company's existing systems for broader analysis capabilities.
+- Ensured high availability and reliability of stock data for users and internal teams.
+
+Company Website Management:
+- Ensured seamless functionality of the website.
+- Enhanced accessibility features for diverse user groups.
+- Developed and maintained essential APIs for site integrations and functionalitiesAutomated Visual Reporting System: - Developed an automated system for generating daily reports. - Provided actionable insights tailored for sales and marketing teams. - Enhanced data-driven decision-making processes. Stock Data APIs Development: - Designed and implemented APIs to access real-time and historical stock data. - Integrated stock data APIs with the company's existing systems for broader analysis capabilities. - Ensured high availability and reliability of stock data for users and internal teams. Company Website Management: - Ensured seamless functionality of the website. - Enhanced accessibility features for diverse user groups. - Developed and maintained essential APIs for site integrations and functionalities
+Python (Programming Language), JavaScript and +4 skills
+EducationEducation
+University of San Francisco logo
+University of San Francisco
+University of San Francisco
+BS in Computer Science progress, Computer ScienceBS in Computer Science progress, Computer Science
+2017 - 2022
+Strong Computer Science program with focus on Java, Python and practical development skills

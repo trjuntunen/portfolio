@@ -1,4 +1,3 @@
-// src/components/SkillsSection.tsx
 export default function SkillsSection() {
     const skills = [
       { name: "React", icon: "⚛️" },
