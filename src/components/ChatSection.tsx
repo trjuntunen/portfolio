@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react'; // Add useEffect here
+import { useState, useEffect } from 'react';
 
 export default function ChatSection() {
   const [chat, setChat] = useState<{ question: string; answer: string }[]>([]);
@@ -38,7 +38,7 @@ export default function ChatSection() {
       const data = await response.json();
   
       // Detect if response was cut off
-      const maxTokens = 100; // Same value you use in the API call
+      const maxTokens = 120; // Same value you use in the API call
       const generatedAnswer = data.answer || "Sorry, I couldn't generate an answer.";
       const isCutOff = generatedAnswer.length >= maxTokens;
   

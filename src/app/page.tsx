@@ -1,9 +1,9 @@
-'use client'; // Enable client-side rendering
+'use client';
 
 import Header from '@/components/Header';
 import WorkSection from '@/components/WorkSection';
 import SkillsSection from '@/components/SkillsSection';
-import ChatSection from '@/components/ChatSection'; // Import the new Chat Section
+import ChatSection from '@/components/ChatSection';
 import Footer from '@/components/Footer';
 
 export default function Page() {
