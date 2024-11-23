@@ -37,15 +37,16 @@ export default function ChatSection() {
       });
       const data = await response.json();
   
-      // Detect if response was cut off
-      const maxTokens = 120; // Same value you use in the API call
-      const generatedAnswer = data.answer || "Sorry, I couldn't generate an answer.";
-      const isCutOff = generatedAnswer.length >= maxTokens;
-  
+      // Check if the response likely hit the max_tokens limit
+      const maxTokens = 150; // Same value you use in the API call
+      const completionTokens = data.usage?.completion_tokens || 0;
+      const isCutOff = completionTokens >= maxTokens;
+
       // Append warning if response is cut off
+      const generatedAnswer = data.answer || "Sorry, I couldn't generate an answer.";
       const finalAnswer = isCutOff
-        ? `${generatedAnswer} <cut short due to max tokens>`
-        : generatedAnswer;
+      ? `${generatedAnswer} <cut short due to max tokens>`
+      : generatedAnswer;
   
       // Update chat with AI's answer
       setChat((prev) => {

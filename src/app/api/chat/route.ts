@@ -36,12 +36,13 @@ export async function POST(req: Request) {
         { role: "system", content: resumeContext },
         { role: "user", content: question },
       ],
-      max_tokens: 120,
+      max_tokens: 150,
     });
 
     const answer = response.choices[0]?.message?.content || "Sorry, I couldn't generate an answer.";
+    const usage = response.usage || null; // Include the usage field if available
 
-    return new Response(JSON.stringify({ answer }), {
+    return new Response(JSON.stringify({ answer, usage }), {
       status: 200,
       headers: { "Content-Type": "application/json" },
     });
